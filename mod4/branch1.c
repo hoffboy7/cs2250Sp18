@@ -43,16 +43,25 @@ int main()
         printf("You have %d years to vote\n", temp);
     }
 
+
     if(age >= 21) //IF true, go inside the block
     {
         printf("You can buy alcohol\n");
     }
+
+    else
+    {
+        temp = 21 - age;
+        printf("You have %d years to buy alcohol\n", temp);
+    }
+
 
     // Special case aage = 35
     if(age == 35)
     {
         printf("You are at the special age %d\n", age);
     }
+
 
     if(age >= 65)
     {
@@ -67,7 +76,7 @@ int main()
     printf("Adios amigo\n");
 
     return 0;
-
+}
     //Function Definitions
 
 
