@@ -3,7 +3,7 @@
  *
  *       Filename:  hw4Pt2.c
  *
- *    Description:  
+ *    Description:  Programming Assignment M4
  *
  *        Version:  1.0
  *        Created:  02/10/2018 02:27:41 PM
